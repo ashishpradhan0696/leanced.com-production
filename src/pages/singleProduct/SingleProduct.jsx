@@ -50,7 +50,7 @@ export default function SingleProduct() {
     )
 
     const singleData=index[0];
-    console.log(singleData);
+    //console.log(singleData);
 
     //managing state of logged in user 
         const [user,setUser]=useState(null);
@@ -94,7 +94,7 @@ export default function SingleProduct() {
      const addToWatchList= async()=>{
         if(user){
             const proteinRef=doc(db,"proteinwatchlist", user.uid);
-            console.log(user.uid);
+           // console.log(user.uid);
             try{
                 await setDoc(proteinRef,
                     {proteins:watchlist ? [...watchlist,singleData?.name]:[singleData?.name]}
@@ -119,12 +119,12 @@ export default function SingleProduct() {
         
         var unsubscribe=onSnapshot(proteinRef,(ele)=>{
             if(ele.exists()){
-                console.log(ele.data().proteins);
+                //console.log(ele.data().proteins);
                 setWatchList(ele.data().proteins);
-                console.log("watchlist is", watchlist);
+                //console.log("watchlist is", watchlist);
             }
             else{
-                console.log("no items in watchlist");
+                //console.log("no items in watchlist");
             }
         });
 
@@ -140,7 +140,7 @@ export default function SingleProduct() {
     const removeFromWatchList=async ()=>{
         
         const proteinRef=doc(db,"proteinwatchlist", user.uid);
-        console.log(user.uid);
+        //console.log(user.uid);
         
         try{
             await setDoc(proteinRef,
@@ -256,7 +256,7 @@ export default function SingleProduct() {
   //toggling nutritionBreakdownChart ,amino acid chart and protein chart
     const toggleView=(e)=>{
         if(e.target.checked){
-            console.log(true);
+          //  console.log(true);
 
             setCurrentView("You are currently viewing 'Per 100g view' .Toggle to switch to 'Per Serving view'");
 
@@ -309,7 +309,7 @@ export default function SingleProduct() {
         
 
         else{
-            console.log(false);
+           // console.log(false);
             setCurrentView("You are currently viewing 'Per Serving view' .Toggle to switch to 'Per 100g view'");
 
             setCalorie(singleData.nutritionPerServing.energyPerServing);

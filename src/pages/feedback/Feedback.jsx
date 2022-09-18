@@ -37,7 +37,7 @@ export default function Feedback() {
 
             emailjs.sendForm('leanced.com', 'template_oi539xs', form.current, '0fz8OU6ikK6yhYckt')
             .then((result) => {
-                console.log(result.text);
+               // console.log(result.text);
                 setOpen(true);
                 e.target.reset();
             }, (error) => {
@@ -69,12 +69,12 @@ export default function Feedback() {
         
             var unsubscribe=onSnapshot(proteinRef,(ele)=>{
             if(ele.exists()){
-                console.log(ele.data().proteins);
+                //console.log(ele.data().proteins);
                 setWatchList(ele.data().proteins);
-                console.log("watchlist is", watchlist);
+                //console.log("watchlist is", watchlist);
             }
             else{
-                console.log("no items in watchlist");
+                //console.log("no items in watchlist");
             }
         });
 

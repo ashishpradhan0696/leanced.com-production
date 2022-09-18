@@ -41,12 +41,12 @@ export default function Faq() {
         
             var unsubscribe=onSnapshot(proteinRef,(ele)=>{
             if(ele.exists()){
-                console.log(ele.data().proteins);
+                // console.log(ele.data().proteins);
                 setWatchList(ele.data().proteins);
-                console.log("watchlist is", watchlist);
+                // console.log("watchlist is", watchlist);
             }
             else{
-                console.log("no items in watchlist");
+                // console.log("no items in watchlist");
             }
         });
 

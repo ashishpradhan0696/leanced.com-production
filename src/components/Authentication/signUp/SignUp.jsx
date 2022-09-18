@@ -39,16 +39,16 @@ export default function SignUp({handleClose}) {
             createUserWithEmailAndPassword(auth, email, password)
                     .then((userCredential) => {
                         // Signed in 
-                        const user = userCredential.user;
+                        // const user = userCredential.user;
                         setLoading(false);
-                        console.log(user);
+                        // console.log(user);
                         
                         handleClose();
                 
                     })
                     .catch((error) => {
-                        const errorCode = error.code;
-                        const errorMessage = error.message;
+                        // const errorCode = error.code;
+                        // const errorMessage = error.message;
                          setLoading(false);
                         // ..
                     });
@@ -56,6 +56,7 @@ export default function SignUp({handleClose}) {
 
         catch(err){
             console.log("Unable to register");
+            console.log(err);
         }
         
     }
@@ -80,9 +81,9 @@ export default function SignUp({handleClose}) {
     }
 
     useEffect(() => {
-          console.log(emailFlag,passwordFlag,confirmPasswordFlag);
+        //   console.log(emailFlag,passwordFlag,confirmPasswordFlag);
                 if(emailFlag && passwordFlag===true && confirmPasswordFlag===true){
-                    console.log("validated");
+                    // console.log("validated");
                     setActive(false);
                 }
                 else{

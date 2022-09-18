@@ -28,7 +28,7 @@ export default function Product({data, numberOfPages , currentPage, setCurrentPa
             setFilter(e.target.value.toLowerCase());
         }
 
-        console.log("filter is", filter);
+       // console.log("filter is", filter);
 
         const navigate=useNavigate();
 
@@ -54,12 +54,12 @@ export default function Product({data, numberOfPages , currentPage, setCurrentPa
         
             var unsubscribe=onSnapshot(proteinRef,(ele)=>{
             if(ele.exists()){
-                console.log(ele.data().proteins);
+               // console.log(ele.data().proteins);
                 setWatchList(ele.data().proteins);
-                console.log("watchlist is", watchlist);
+               // console.log("watchlist is", watchlist);
             }
             else{
-                console.log("no items in watchlist");
+               // console.log("no items in watchlist");
             }
         });
 

@@ -40,7 +40,7 @@ export default function Login({handleClose}) {
             signInWithEmailAndPassword(auth, email, password)
             .then((userCredential) => {
                 // Signed in 
-                const user = userCredential.user;
+                // const user = userCredential.user;
                 setError(false);
                 setLoading(false);
                
@@ -49,8 +49,8 @@ export default function Login({handleClose}) {
             .catch((error) => {
                 setLoading(false);
                 setError(true);
-                const errorCode = error.code;
-                const errorMessage = error.message;
+                // const errorCode = error.code;
+                // const errorMessage = error.message;
             });
 
         }
