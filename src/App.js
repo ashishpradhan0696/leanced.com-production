@@ -11,6 +11,7 @@ import About from "./pages/about/About";
 import ScrollTop from "./components/scrollToTop/ScrollTop";
 import InitialTopScroll from "./components/InitialTopScroll/InitialTopScroll";
 
+
 import {
   BrowserRouter as Router,
   Routes,
