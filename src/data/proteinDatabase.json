@@ -1,0 +1,990 @@
+[
+  {
+    "id": 1,
+    "name": "MyProtein Impact Whey Protein",
+    "brand": "Myprotein",
+    "origin": "UK",
+    "image": "1.png",
+    "imgCitation": "https://www.amazon.in/MyProtein-Impact-Whey-Protein-Chocolate/dp/B00MGOHJIY",
+    "servingSize": 25,
+    "flavours": 8,
+    "nutritionPerServing": {
+      "energyPerServing": 103,
+      "carbsPerServing": 1,
+      "fatsPerServing": 1.9,
+      "proteinPerServing": 21,
+      "addedSugarPerServing": 1
+    },
+    "aminoAcidProfile": {
+      "Isoleucine": 6.4,
+      "Leucine": 10.6,
+      "Valine": 5.9,
+      "Lysine": 9.6,
+      "Methionine": 2.2,
+      "Phenylalanine": 3.0,
+      "Threonine": 6.7,
+      "Tryptophan": 1.4,
+      "Histidine": 1.7
+    }
+  },
+
+  {
+    "id": 2,
+    "name": "MyProtein Impact Whey Protein Isolate",
+    "brand": "Myprotein",
+    "origin": "UK",
+    "image": "2.png",
+    "imgCitation": "https://www.amazon.in/MyProtein-Impact-Whey-Isolate-Chocolate/dp/B00HJVWRB8/ref=sr_1_4?crid=JTZ8RYDBCGEX&keywords=impact+whey+protein+isolate&qid=1663426003&s=hpc&sprefix=impact+whey+protein+isolat%2Chpc%2C280&sr=1-4",
+    "servingSize": 25,
+    "flavours": 6,
+    "nutritionPerServing": {
+      "energyPerServing": 93,
+      "carbsPerServing": 0.6,
+      "fatsPerServing": 0.1,
+      "proteinPerServing": 23,
+      "addedSugarPerServing": 0.6
+    },
+    "aminoAcidProfile": {
+      "Isoleucine": 6.4,
+      "Leucine": 10.6,
+      "Valine": 5.9,
+      "Lysine": 9.6,
+      "Methionine": 2.2,
+      "Phenylalanine": 3.0,
+      "Threonine": 6.7,
+      "Tryptophan": 1.4,
+      "Histidine": 1.7
+    }
+  },
+
+  {
+    "id": 3,
+    "name": "MuscleBlaze Biozyme Performance Whey",
+    "brand": "MuscleBlaze",
+    "origin": "India",
+    "image": "3.png",
+    "imgCitation": "https://www.amazon.in/MuscleBlaze-Performance-Certified-Chocolate-servings/dp/B091PPXCVK",
+    "servingSize": 36,
+    "flavours": 10,
+    "nutritionPerServing": {
+      "energyPerServing": 130.72,
+      "carbsPerServing": 3.02,
+      "fatsPerServing": 1.98,
+      "proteinPerServing": 25,
+      "addedSugarPerServing": 0
+    }
+  },
+  {
+    "id": 4,
+    "name": "MuscleBlaze Fuel One Immunity+",
+    "brand": "MuscleBlaze",
+    "origin": "India",
+    "image": "4.png",
+    "imgCitation": "https://www.amazon.in/MuscleBlaze-Fuel-Whey-Protein-Chocolate/dp/B0833452R5/ref=sr_1_3?crid=1YH2U77SNRALN&keywords=MuscleBlaze%2BFuel%2BOne%2BImmunity%2B&qid=1663426203&s=hpc&sprefix=muscleblaze%2Bfuel%2Bone%2Bimmunity%2B%2Chpc%2C227&sr=1-3&th=1",
+    "servingSize": 39,
+    "flavours": 7,
+    "nutritionPerServing": {
+      "energyPerServing": 150.77,
+      "carbsPerServing": 8.78,
+      "fatsPerServing": 2.11,
+      "proteinPerServing": 24,
+      "addedSugarPerServing": 0
+    }
+  },
+  {
+    "id": 5,
+    "name": "MuscleBlaze Biozyme Performance Whey Women's Day Special",
+    "brand": "MuscleBlaze",
+    "origin": "India",
+    "image": "5.png",
+    "imgCitation": "https://www.muscleblaze.com/sv/muscleblaze-biozyme-performance-whey-womens-day-special/SP-99622?navKey=VRNT-185408",
+    "servingSize": 36,
+    "flavours": 1,
+    "nutritionPerServing": {
+      "energyPerServing": 130.72,
+      "carbsPerServing": 3.02,
+      "fatsPerServing": 1.98,
+      "proteinPerServing": 25,
+      "addedSugarPerServing": 0
+    }
+  },
+  {
+    "id": 6,
+    "name": "MuscleBlaze 80% Raw Whey Protein",
+    "brand": "MuscleBlaze",
+    "origin": "India",
+    "image": "6.png",
+    "imgCitation": "https://www.amazon.in/MuscleBlaze-Concentrate-Digestive-Certified-Unflavoured/dp/B09VSXY26S",
+    "servingSize": 30,
+    "flavours": 1,
+    "nutritionPerServing": {
+      "energyPerServing": 122.0,
+      "carbsPerServing": 2.1,
+      "fatsPerServing": 1.95,
+      "proteinPerServing": 24,
+      "addedSugarPerServing": 0
+    },
+    "aminoAcidProfile": {
+      "Isoleucine": 4.52,
+      "Leucine": 8.52,
+      "Valine": 4.61,
+      "Lysine": 7.48,
+      "Methionine": 1.81,
+      "Phenylalanine": 2.47,
+      "Threonine": 5.48,
+      "Tryptophan": 1.32,
+      "Histidine": 1.4
+    }
+  },
+  {
+    "id": 7,
+    "name": "MuscleBlaze Biozyme Whey Protein",
+    "brand": "MuscleBlaze",
+    "origin": "India",
+    "image": "7.png",
+    "imgCitation": "https://www.amazon.in/MuscleBlaze-Biozyme-Protein-Cream-Chocolate/dp/B0821LDPK2",
+    "servingSize": 33,
+    "flavours": 7,
+    "nutritionPerServing": {
+      "energyPerServing": 120.9,
+      "carbsPerServing": 2.5,
+      "fatsPerServing": 1.19,
+      "proteinPerServing": 25,
+      "addedSugarPerServing": 0
+    }
+  },
+  {
+    "id": 8,
+    "name": "MuscleBlaze Beginner's Protein Powder",
+    "brand": "MuscleBlaze",
+    "origin": "India",
+    "image": "8.png",
+    "imgCitation": "https://www.amazon.in/MuscleBlaze-Beginners-Protein-Supplement-Chocolate/dp/B09NC3QX8T?th=1",
+    "servingSize": 30,
+    "flavours": 5,
+    "nutritionPerServing": {
+      "energyPerServing": 104,
+      "carbsPerServing": 12.6,
+      "fatsPerServing": 0.96,
+      "proteinPerServing": 12,
+      "addedSugarPerServing": 0
+    }
+  },
+  {
+    "id": 9,
+    "name": "MuscleBlaze Raw Whey Isolate",
+    "brand": "MuscleBlaze",
+    "origin": "India",
+    "image": "9.png",
+    "imgCitation": "https://www.amazon.in/MuscleBlaze-Raw-Whey-Isolate-1kg/dp/B08L125CB5?th=1",
+    "servingSize": 30,
+    "flavours": 1,
+    "nutritionPerServing": {
+      "energyPerServing": 112.5,
+      "carbsPerServing": 0.5,
+      "fatsPerServing": 0.3,
+      "proteinPerServing": 27,
+      "addedSugarPerServing": 0
+    }
+  },
+  {
+    "id": 10,
+    "name": "MuscleBlaze Biozyme Iso-Zero",
+    "brand": "MuscleBlaze",
+    "origin": "India",
+    "image": "10.png",
+    "imgCitation": "https://www.amazon.in/Muscleblaze-Iso-zero-Low-carb-Protein-Chocolate/dp/B07FNGZRV8",
+    "servingSize": 32.5,
+    "flavours": 4,
+    "nutritionPerServing": {
+      "energyPerServing": 110.27,
+      "carbsPerServing": 0,
+      "fatsPerServing": 0.26,
+      "proteinPerServing": 27,
+      "addedSugarPerServing": 0
+    }
+  },
+  {
+    "id": 11,
+    "name": "MuscleBlaze Whey Gold 100% Whey Protein Isolate",
+    "brand": "MuscleBlaze",
+    "origin": "India",
+    "image": "11.png",
+    "imgCitation": "https://www.amazon.in/MuscleBlaze-Whey-Gold-Protein-Chocolate/dp/B071KWBBXZ",
+    "servingSize": 30,
+    "flavours": 8,
+    "nutritionPerServing": {
+      "energyPerServing": 109.0,
+      "carbsPerServing": 1.65,
+      "fatsPerServing": 0.46,
+      "proteinPerServing": 25,
+      "addedSugarPerServing": 0
+    },
+    "aminoAcidProfile": {
+      "Isoleucine": 1.41,
+      "Leucine": 2.66,
+      "Valine": 1.44,
+      "Lysine": 2.34,
+      "Methionine": 0.56,
+      "Phenylalanine": 0.77,
+      "Threonine": 1.71,
+      "Tryptophan": 0.41,
+      "Histidine": 0.44
+    }
+  },
+  {
+    "id": 12,
+    "name": "MuscleBlaze Women Iso Whey 100% Whey Protein Isolate",
+    "brand": "MuscleBlaze",
+    "origin": "India",
+    "image": "12.png",
+    "imgCitation": "https://www.amazon.in/Muscleblaze-Iso-Whey-Protein-Isolate-Chocolate/dp/B07K2WYG4P?th=1",
+    "servingSize": 26,
+    "flavours": 2,
+    "nutritionPerServing": {
+      "energyPerServing": 92,
+      "carbsPerServing": 2,
+      "fatsPerServing": 0.4,
+      "proteinPerServing": 20,
+      "addedSugarPerServing": 0
+    }
+  },
+  {
+    "id": 13,
+    "name": "MuscleBlaze Whey Active",
+    "brand": "MuscleBlaze",
+    "origin": "India",
+    "image": "13.png",
+    "imgCitation": "https://www.amazon.in/MuscleBlaze-Active-Protein-Supplement-Powder/dp/B00RB8FWZ2?th=1",
+    "servingSize": 33,
+    "flavours": 1,
+    "nutritionPerServing": {
+      "energyPerServing": 126.75,
+      "carbsPerServing": 9.2,
+      "fatsPerServing": 1.09,
+      "proteinPerServing": 20,
+      "addedSugarPerServing": 0
+    },
+    "aminoAcidProfile": {
+      "Isoleucine": 3.43,
+      "Leucine": 6.46,
+      "Valine": 3.49,
+      "Lysine": 5.67,
+      "Methionine": 1.37,
+      "Phenylalanine": 1.88,
+      "Threonine": 4.16,
+      "Tryptophan": 1.0,
+      "Histidine": 1.06
+    }
+  },
+  {
+    "id": 14,
+    "name": "MuscleBlaze Fuel One Black Whey Protein",
+    "brand": "MuscleBlaze",
+    "origin": "India",
+    "image": "14.png",
+    "imgCitation": "https://www.amazon.in/MuscleBlaze-Black-Creapure-Testosterone-Chocolate/dp/B09V1FL6GP",
+    "servingSize": 37,
+    "flavours": 1,
+    "nutritionPerServing": {
+      "energyPerServing": 129.87,
+      "carbsPerServing": 4.26,
+      "fatsPerServing": 1.85,
+      "proteinPerServing": 24,
+      "addedSugarPerServing": 0
+    }
+  },
+  {
+    "id": 15,
+    "name": "MuscleBlaze Whey Premium Digezyme",
+    "brand": "MuscleBlaze",
+    "origin": "India",
+    "image": "15.png",
+    "imgCitation": "https://www.muscleblaze.com/sv/muscleblaze-whey-premium-digezyme/SP-70721",
+    "servingSize": 34.5,
+    "flavours": 1,
+    "nutritionPerServing": {
+      "energyPerServing": 125.4,
+      "carbsPerServing": 2.76,
+      "fatsPerServing": 1.21,
+      "proteinPerServing": 26,
+      "addedSugarPerServing": 0
+    }
+  },
+  {
+    "id": 16,
+    "name": "MuscleBlaze Whey Hydro Hydrolyzed Whey Protein",
+    "brand": "MuscleBlaze",
+    "origin": "India",
+    "image": "16.png",
+    "imgCitation": "https://www.amazon.in/MuscleBlaze-Hydro-Protein-Isolate-Chocolate/dp/B078N8F629",
+    "servingSize": 30,
+    "flavours": 6,
+    "nutritionPerServing": {
+      "energyPerServing": 110.6,
+      "carbsPerServing": 2.1,
+      "fatsPerServing": 0.69,
+      "proteinPerServing": 24,
+      "addedSugarPerServing": 0
+    }
+  },
+  {
+    "id": 17,
+    "name": "Labrada Turbo Whey Protein Isolate",
+    "brand": "Labrada Nutrition",
+    "origin": "US",
+    "image": "17.png",
+    "imgCitation": "https://www.amazon.in/Labrada-Chocolate-Protein-Creatine-Isolate/dp/B097K67B4L",
+    "servingSize": 43,
+    "flavours": 1,
+    "nutritionPerServing": {
+      "energyPerServing": 163.4,
+      "carbsPerServing": 2.7,
+      "fatsPerServing": 1.45,
+      "proteinPerServing": 35,
+      "addedSugarPerServing": 2.0
+    }
+  },
+  {
+    "id": 18,
+    "name": "Labrada 100% Whey Protein Concentrate",
+    "brand": "Labrada Nutrition",
+    "origin": "US",
+    "image": "18.png",
+    "imgCitation": "https://www.amazon.in/Labrada-100-Whey-Protein-Chocolate/dp/B07K7MFX5M?th=1",
+    "servingSize": 38,
+    "flavours": 3,
+    "nutritionPerServing": {
+      "energyPerServing": 143.1,
+      "carbsPerServing": 3.7,
+      "fatsPerServing": 2.7,
+      "proteinPerServing": 26,
+      "addedSugarPerServing": 0
+    }
+  },
+  {
+    "id": 19,
+    "name": "Labrada ISO WHEY 100% Whey Protein Isolate",
+    "brand": "Labrada Nutrition",
+    "origin": "US",
+    "image": "19.png",
+    "imgCitation": "https://www.amazon.in/Labrada-100-ISO-Whey-Chocolate/dp/B00CJBH5ZQ",
+    "servingSize": 32,
+    "flavours": 1,
+    "nutritionPerServing": {
+      "energyPerServing": 120,
+      "carbsPerServing": 3,
+      "fatsPerServing": 1,
+      "proteinPerServing": 25,
+      "addedSugarPerServing": 0
+    }
+  },
+  {
+    "id": 20,
+    "name": "Labrada 100% ISO Hydrolyzed",
+    "brand": "Labrada Nutrition",
+    "origin": "US",
+    "image": "20.png",
+    "imgCitation": "https://www.amazon.in/Labrada-HYDROLYZED-Protein-Isolate-Servings/dp/B07Q96JZ3M",
+    "servingSize": 32,
+    "flavours": 1,
+    "nutritionPerServing": {
+      "energyPerServing": 112,
+      "carbsPerServing": 3.2,
+      "fatsPerServing": 0,
+      "proteinPerServing": 25,
+      "addedSugarPerServing": 0
+    }
+  },
+  {
+    "id": 21,
+    "name": "Ultimate Nutrition PROSTAR 100% Whey Protein",
+    "brand": "Ultimate Nutrition",
+    "origin": "US",
+    "image": "21.png",
+    "imgCitation": "https://www.amazon.in/Ultimate-Nutrition-Prostar-100-Protein/dp/B002EVPVCK",
+    "servingSize": 30,
+    "flavours": 14,
+    "nutritionPerServing": {
+      "energyPerServing": 120,
+      "carbsPerServing": 2,
+      "fatsPerServing": 1,
+      "proteinPerServing": 25,
+      "addedSugarPerServing": 1
+    },
+    "aminoAcidProfile": {
+      "Isoleucine": 1.54,
+      "Leucine": 3.192,
+      "Valine": 1.27,
+      "Lysine": 2.56,
+      "Methionine": 0.51,
+      "Phenylalanine": 0.96,
+      "Threonine": 1.04,
+      "Tryptophan": 0.63,
+      "Histidine": 0.51
+    }
+  },
+  {
+    "id": 22,
+    "name": "Ultimate Nutrition ISO SENSATION",
+    "brand": "Ultimate Nutrition",
+    "origin": "US",
+    "image": "22.png",
+    "imgCitation": "https://www.amazon.in/Ultimate-Nutrition-Sensation-Chocolate-Fudge/dp/B002EVPVS4",
+    "servingSize": 32,
+    "flavours": 7,
+    "nutritionPerServing": {
+      "energyPerServing": 130,
+      "carbsPerServing": 1,
+      "fatsPerServing": 1,
+      "proteinPerServing": 30,
+      "addedSugarPerServing": 0.5
+    },
+    "aminoAcidProfile": {
+      "Isoleucine": 1.86,
+      "Leucine": 3.21,
+      "Valine": 1.68,
+      "Lysine": 3.33,
+      "Methionine": 0.66,
+      "Phenylalanine": 0.84,
+      "Threonine": 1.95,
+      "Tryptophan": 0.51,
+      "Histidine": 0.48
+    }
+  },
+  {
+    "id": 23,
+    "name": "Ultimate Nutrition ISOCOOL",
+    "brand": "Ultimate Nutrition",
+    "origin": "US",
+    "image": "23.png",
+    "imgCitation": "https://www.amazon.com/Ultimate-Nutrition-Protein-Isolate-Powder/dp/B005Z9VBX6",
+    "servingSize": 26,
+    "flavours": 5,
+    "nutritionPerServing": {
+      "energyPerServing": 90,
+      "carbsPerServing": 0,
+      "fatsPerServing": 0,
+      "proteinPerServing": 23,
+      "addedSugarPerServing": 0
+    },
+    "aminoAcidProfile": {
+      "Isoleucine": 1.98,
+      "Leucine": 2.61,
+      "Valine": 1.44,
+      "Lysine": 2.22,
+      "Methionine": 0.35,
+      "Phenylalanine": 0.73,
+      "Threonine": 1.94,
+      "Tryptophan": 0.55,
+      "Histidine": 0.365
+    }
+  },
+  {
+    "id": 24,
+    "name": "Ultimate Nutrition HYDROCOOL",
+    "brand": "Ultimate Nutrition",
+    "origin": "US",
+    "image": "24.png",
+    "imgCitation": "https://www.amazon.com/Ultimate-Nutrition-HydroCool-Protein-Isolate/dp/B074NB4PDZ?th=1",
+    "servingSize": 40,
+    "flavours": 4,
+    "nutritionPerServing": {
+      "energyPerServing": 150,
+      "carbsPerServing": 2,
+      "fatsPerServing": 0,
+      "proteinPerServing": 33,
+      "addedSugarPerServing": 0
+    },
+    "aminoAcidProfile": {
+      "Isoleucine": 2.15,
+      "Leucine": 3.5,
+      "Valine": 1.96,
+      "Lysine": 3.07,
+      "Methionine": 0.7,
+      "Phenylalanine": 1.0,
+      "Threonine": 2.5,
+      "Tryptophan": 0.62,
+      "Histidine": 0.6
+    }
+  },
+  {
+    "id": 25,
+    "name": "Ultimate Nutrition Whey GOLD",
+    "brand": "Ultimate Nutrition",
+    "origin": "US",
+    "image": "25.png",
+    "imgCitation": "https://www.amazon.in/Ultimate-Nutrition-Whey-Gold-Chocolate/dp/B01M03BX74",
+    "servingSize": 34,
+    "flavours": 2,
+    "nutritionPerServing": {
+      "energyPerServing": 140,
+      "carbsPerServing": 9,
+      "fatsPerServing": 2,
+      "proteinPerServing": 20,
+      "addedSugarPerServing": 2
+    },
+    "aminoAcidProfile": {
+      "Isoleucine": 1.17,
+      "Leucine": 1.95,
+      "Valine": 1.17,
+      "Lysine": 1.95,
+      "Methionine": 0.38,
+      "Phenylalanine": 0.63,
+      "Threonine": 1.45,
+      "Tryptophan": 0.42,
+      "Histidine": 0.44
+    }
+  },
+  {
+    "id": 26,
+    "name": "Optimum Nutrition (ON) Gold Standard 100% Whey Protein Powder",
+    "brand": "Optimum Nutrition",
+    "origin": "US",
+    "image": "26.png",
+    "imgCitation": "https://www.amazon.in/Optimum-Nutrition-Standard-Protein-Powder/dp/B000QSNYGI",
+    "servingSize": 30.4,
+    "flavours": 18,
+    "nutritionPerServing": {
+      "energyPerServing": 117,
+      "carbsPerServing": 3,
+      "fatsPerServing": 1,
+      "proteinPerServing": 24,
+      "addedSugarPerServing": 1
+    },
+    "aminoAcidProfile": {
+      "Isoleucine": 1.68,
+      "Leucine": 2.64,
+      "Valine": 1.39,
+      "Lysine": 2.38,
+      "Methionine": 0.49,
+      "Phenylalanine": 0.76,
+      "Threonine": 1.75,
+      "Tryptophan": 0.56,
+      "Histidine": 0.45
+    }
+  },
+  {
+    "id": 27,
+    "name": "Optimum Nutrition (ON) Gold Standard 100% Isolate",
+    "brand": "Optimum Nutrition",
+    "origin": "US",
+    "image": "27.png",
+    "imgCitation": "https://www.amazon.in/Optimum-Nutrition-Standard-Isolate-Protein/dp/B07MTQP3QB",
+    "servingSize": 31,
+    "flavours": 4,
+    "nutritionPerServing": {
+      "energyPerServing": 110,
+      "carbsPerServing": 1,
+      "fatsPerServing": 0.5,
+      "proteinPerServing": 25,
+      "addedSugarPerServing": 0
+    }
+  },
+  {
+    "id": 28,
+    "name": "Optimum Nutrition (ON) Performance Whey Protein Powder",
+    "brand": "Optimum Nutrition",
+    "origin": "US",
+    "image": "28.png",
+    "imgCitation": "https://www.amazon.in/Optimum-Nutrition-Performance-Protein-Powder/dp/B099ZDZ262",
+    "servingSize": 34,
+    "flavours": 4,
+    "nutritionPerServing": {
+      "energyPerServing": 123,
+      "carbsPerServing": 4.5,
+      "fatsPerServing": 1,
+      "proteinPerServing": 24,
+      "addedSugarPerServing": 1
+    }
+  },
+  {
+    "id": 29,
+    "name": "Dymatize Nutrition Elite Whey Protein Powder",
+    "brand": "Dymatize",
+    "origin": "US",
+    "image": "29.png",
+    "imgCitation": "https://www.amazon.in/Dymatize-Nutrition-Elite-100-Protein/dp/B00CUDYY2U",
+    "servingSize": 36,
+    "flavours": 2,
+    "nutritionPerServing": {
+      "energyPerServing": 140,
+      "carbsPerServing": 3,
+      "fatsPerServing": 3,
+      "proteinPerServing": 25,
+      "addedSugarPerServing": 2
+    },
+    "aminoAcidProfile": {
+      "Isoleucine": 1.45,
+      "Leucine": 2.73,
+      "Valine": 1.48,
+      "Lysine": 2.39,
+      "Methionine": 0.57,
+      "Phenylalanine": 0.806,
+      "Threonine": 1.75,
+      "Tryptophan": 0.42,
+      "Histidine": 0.45
+    }
+  },
+  {
+    "id": 30,
+    "name": "Dymatize Nutrition ISO 100 Hydrolyzed Whey Protein Isolate Powder",
+    "brand": "Dymatize",
+    "origin": "US",
+    "image": "30.png",
+    "imgCitation": "https://www.amazon.in/Dymatize-Nutrition-Whey-Protein-Powder/dp/B00G6QHYZ6",
+    "servingSize": 30,
+    "flavours": 9,
+    "nutritionPerServing": {
+      "energyPerServing": 110,
+      "carbsPerServing": 1,
+      "fatsPerServing": 0,
+      "proteinPerServing": 25,
+      "addedSugarPerServing": 0
+    },
+    "aminoAcidProfile": {
+      "Isoleucine": 1.42,
+      "Leucine": 2.67,
+      "Valine": 1.44,
+      "Lysine": 2.34,
+      "Methionine": 0.56,
+      "Phenylalanine": 0.77,
+      "Threonine": 1.72,
+      "Tryptophan": 0.41,
+      "Histidine": 0.44
+    }
+  },
+  {
+    "id": 31,
+    "name": "MuscleTech Performance Series Nitro Tech Whey Protein Powder",
+    "brand": "MuscleTech",
+    "origin": "US",
+    "image": "31.png",
+    "imgCitation": "https://www.amazon.in/MuscleTech-Nitrotech-Ultimate-Building-Chocolate/dp/B09XBTHTP1/ref=pd_lpo_2?pd_rd_i=B09XBTHTP1&psc=1",
+    "servingSize": 46,
+    "flavours": 5,
+    "nutritionPerServing": {
+      "energyPerServing": 160,
+      "carbsPerServing": 4,
+      "fatsPerServing": 3,
+      "proteinPerServing": 30,
+      "addedSugarPerServing": 2
+    }
+  },
+  {
+    "id": 32,
+    "name": "MuscleTech Performance Series Phase 8 Protein",
+    "brand": "MuscleTech",
+    "origin": "US",
+    "image": "32.png",
+    "imgCitation": "https://www.amazon.in/Muscletech-Phase-Multiphase-8-Hour-Protein/dp/B00BEOHFWW",
+    "servingSize": 46,
+    "flavours": 4,
+    "nutritionPerServing": {
+      "energyPerServing": 150,
+      "carbsPerServing": 8,
+      "fatsPerServing": 1.5,
+      "proteinPerServing": 26,
+      "addedSugarPerServing": 2
+    }
+  },
+  {
+    "id": 33,
+    "name": "MuscleTech 100% Premium Whey Protein Plus",
+    "brand": "MuscleTech",
+    "origin": "US",
+    "image": "33.png",
+    "imgCitation": "https://www.amazon.in/Muscletech-Premium-100-Whey-Protein/dp/B075Y1QS98",
+    "servingSize": 40,
+    "flavours": 3,
+    "nutritionPerServing": {
+      "energyPerServing": 130,
+      "carbsPerServing": 9,
+      "fatsPerServing": 1.5,
+      "proteinPerServing": 20,
+      "addedSugarPerServing": 3
+    }
+  },
+  {
+    "id": 34,
+    "name": "Asitis Nutrition Whey Protein Concentrate 80%",
+    "brand": "asitis Nutrition",
+    "origin": "India",
+    "image": "34.png",
+    "imgCitation": "https://www.amazon.in/AS-Nutrition-Protein-Concentrate-Unflavoured/dp/B079SZJJDR",
+    "servingSize": 30,
+    "flavours": 3,
+    "nutritionPerServing": {
+      "energyPerServing": 119,
+      "carbsPerServing": 2.5,
+      "fatsPerServing": 1.5,
+      "proteinPerServing": 24,
+      "addedSugarPerServing": 0
+    },
+    "aminoAcidProfile": {
+      "Isoleucine": 1.4,
+      "Leucine": 2.6,
+      "Valine": 1.4,
+      "Lysine": 2.3,
+      "Methionine": 0.5,
+      "Phenylalanine": 0.8,
+      "Threonine": 1.7,
+      "Tryptophan": 0.5,
+      "Histidine": 0.5
+    }
+  },
+
+  {
+    "id": 35,
+    "name": "Asitis Nutrition Whey Protein Isolate 90%",
+    "brand": "asitis Nutrition",
+    "origin": "India",
+    "image": "35.png",
+    "imgCitation": "https://www.amazon.in/AS-Nutrition-Protein-Isolate/dp/B07F2FH5NV/ref=pd_lpo_1?pd_rd_i=B07F2FH5NV&psc=1",
+    "servingSize": 30,
+    "flavours": 1,
+    "nutritionPerServing": {
+      "energyPerServing": 112,
+      "carbsPerServing": 0.5,
+      "fatsPerServing": 0.3,
+      "proteinPerServing": 27,
+      "addedSugarPerServing": 0
+    },
+    "aminoAcidProfile": {
+      "Isoleucine": 1.73,
+      "Leucine": 2.69,
+      "Valine": 1.51,
+      "Lysine": 2.11,
+      "Methionine": 0.53,
+      "Phenylalanine": 0.74,
+      "Threonine": 1.92,
+      "Tryptophan": 0.46,
+      "Histidine": 0.5
+    }
+  },
+
+  {
+    "id": 36,
+    "name": "Asitis Nutrition ATOM Whey Protein with Digestive Enzymes",
+    "brand": "asitis Nutrition",
+    "origin": "India",
+    "image": "36.png",
+    "imgCitation": "https://www.amazon.in/Protein-Digestive-Enzymes-chocolate-protein/dp/B09DKFPQ91",
+    "servingSize": 36,
+    "flavours": 5,
+    "nutritionPerServing": {
+      "energyPerServing": 135,
+      "carbsPerServing": 4.7,
+      "fatsPerServing": 1,
+      "proteinPerServing": 27,
+      "addedSugarPerServing": 0
+    },
+    "aminoAcidProfile": {
+      "Isoleucine": 1.45,
+      "Leucine": 2.77,
+      "Valine": 1.49,
+      "Lysine": 2.45,
+      "Methionine": 0.57,
+      "Phenylalanine": 0.78,
+      "Threonine": 1.8,
+      "Tryptophan": 0.45,
+      "Histidine": 0.47
+    }
+  },
+
+  {
+    "id": 37,
+    "name": "L-MEN-PLATINUM Whey Protein",
+    "brand": "L-Men",
+    "origin": "Indonesia",
+    "image": "37.png",
+    "imgCitation": "https://www.nutrimart.co.id/l-men-platinum-800gr",
+    "servingSize": 39,
+    "flavours": 1,
+    "nutritionPerServing": {
+      "energyPerServing": 150,
+      "carbsPerServing": 7,
+      "fatsPerServing": 2,
+      "proteinPerServing": 25,
+      "addedSugarPerServing": 3
+    },
+    "aminoAcidProfile": {
+      "Isoleucine": 1.44,
+      "Leucine": 2.54,
+      "Valine": 1.36,
+      "Lysine": 2.15,
+      "Methionine": 0.51,
+      "Phenylalanine": 0.76,
+      "Threonine": 1.49,
+      "Tryptophan": 0.72,
+      "Histidine": 0.43
+    }
+  },
+  {
+    "id": 38,
+    "name": "L-MEN Whey Advanced",
+    "brand": "L-Men",
+    "origin": "Indonesia",
+    "image": "38.png",
+    "imgCitation": "https://www.nutrimart.co.id/l-men-whey-advanced-cappuccino-250gr",
+    "servingSize": 36,
+    "flavours": 1,
+    "nutritionPerServing": {
+      "energyPerServing": 140,
+      "carbsPerServing": 14,
+      "fatsPerServing": 2.5,
+      "proteinPerServing": 15,
+      "addedSugarPerServing": 13
+    },
+    "aminoAcidProfile": {
+      "Isoleucine": 0.72,
+      "Leucine": 1.19,
+      "Valine": 0.7,
+      "Lysine": 1.4,
+      "Methionine": 0.27,
+      "Phenylalanine": 0.44,
+      "Threonine": 0.77,
+      "Tryptophan": 0.37,
+      "Histidine": 0.25
+    }
+  },
+  {
+    "id": 39,
+    "name": "Legion Whey+ Protein Powder",
+    "brand": "Legion Athletics",
+    "origin": "US",
+    "image": "39.png",
+    "imgCitation": "https://www.amazon.in/Athletics-Chocolate-Isolate-Protein-Servings/dp/B00R3ZLXZ6",
+    "servingSize": 32,
+    "flavours": 14,
+    "nutritionPerServing": {
+      "energyPerServing": 110,
+      "carbsPerServing": 3,
+      "fatsPerServing": 1,
+      "proteinPerServing": 23,
+      "addedSugarPerServing": 0
+    }
+  },
+  {
+    "id": 40,
+    "name": "Transparent Labs 100% Grass-Fed Whey Protein Isolate",
+    "brand": "Legion Athletics",
+    "origin": "US",
+    "image": "40.png",
+    "imgCitation": "https://www.transparentlabs.com/products/proteinseries-100-grass-fed-whey-protein-isolate",
+    "servingSize": 32.96,
+    "flavours": 8,
+    "nutritionPerServing": {
+      "energyPerServing": 120,
+      "carbsPerServing": 1,
+      "fatsPerServing": 0,
+      "proteinPerServing": 28,
+      "addedSugarPerServing": 0
+    }
+  },
+
+  {
+    "id": 41,
+    "name": "BigMuscles Nutrition Crude Whey",
+    "brand": "BigMuscles Nutrition",
+    "origin": "India",
+    "image": "41.png",
+    "imgCitation": "https://www.amazon.in/Bigmuscles-Nutrition-Protein-Concentrate-Glutamine/dp/B07VJX85MY",
+    "servingSize": 33,
+    "flavours": 1,
+    "nutritionPerServing": {
+      "energyPerServing": 132,
+      "carbsPerServing": 6,
+      "fatsPerServing": 1.5,
+      "proteinPerServing": 24,
+      "addedSugarPerServing": 0
+    },
+    "aminoAcidProfile": {
+      "Isoleucine": 1.49,
+      "Leucine": 2.98,
+      "Valine": 1.39,
+      "Lysine": 2.31,
+      "Methionine": 0.62,
+      "Phenylalanine": 0.81,
+      "Threonine": 2.12,
+      "Tryptophan": 0.46,
+      "Histidine": 0.44
+    }
+  },
+
+  {
+    "id": 42,
+    "name": "BigMuscles Nutrition Premium Gold Whey Isolate Blend",
+    "brand": "BigMuscles Nutrition",
+    "origin": "India",
+    "image": "42.png",
+    "imgCitation": "https://www.amazon.in/Bigmuscles-Nutrition-Chocolate-Concentrate-Glutamic/dp/B084H8LWC3?th=1",
+    "servingSize": 35,
+    "flavours": 9,
+    "nutritionPerServing": {
+      "energyPerServing": 138,
+      "carbsPerServing": 6.5,
+      "fatsPerServing": 1.5,
+      "proteinPerServing": 25,
+      "addedSugarPerServing": 0
+    },
+    "aminoAcidProfile": {
+      "Isoleucine": 2.24,
+      "Leucine": 3.71,
+      "Valine": 2.06,
+      "Lysine": 3.36,
+      "Methionine": 0.77,
+      "Phenylalanine": 1.05,
+      "Threonine": 2.34,
+      "Tryptophan": 0.49,
+      "Histidine": 0.59
+    }
+  },
+
+  {
+    "id": 43,
+    "name": "BigMuscles Nutrition Raw & Real Isolate Organic Whey Protein",
+    "brand": "BigMuscles Nutrition",
+    "origin": "India",
+    "image": "43.png",
+    "imgCitation": "https://www.amazon.in/Bigmuscles-Nutrition-Isolate-Protein-Unflavoured/dp/B07PQL32CS",
+    "servingSize": 30,
+    "flavours": 1,
+    "nutritionPerServing": {
+      "energyPerServing": 116,
+      "carbsPerServing": 0,
+      "fatsPerServing": 1.0,
+      "proteinPerServing": 27,
+      "addedSugarPerServing": 0
+    },
+    "aminoAcidProfile": {
+      "Isoleucine": 1.49,
+      "Leucine": 2.98,
+      "Valine": 1.39,
+      "Lysine": 2.31,
+      "Methionine": 0.62,
+      "Phenylalanine": 0.81,
+      "Threonine": 2.12,
+      "Tryptophan": 0.46,
+      "Histidine": 0.44
+    }
+  },
+
+  {
+    "id": 44,
+    "name": "BigMuscles Nutrition Nitric Hydro Gold",
+    "brand": "BigMuscles Nutrition",
+    "origin": "India",
+    "image": "44.png",
+    "imgCitation": "https://www.amazon.in/Bigmuscles-Nutrition-Nitric-4-4lbs-Chocolate/dp/B0969P5CVH",
+    "servingSize": 40,
+    "flavours": 1,
+    "nutritionPerServing": {
+      "energyPerServing": 128,
+      "carbsPerServing": 0,
+      "fatsPerServing": 2,
+      "proteinPerServing": 30,
+      "addedSugarPerServing": 0
+    }
+  }
+]

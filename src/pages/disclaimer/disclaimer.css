@@ -1,0 +1,37 @@
+.disclaimer{
+    width: 100vw;
+    height: 100vh;
+}
+
+.disclaimerContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.disclaimerTop{
+    width: 100%;
+    background-color: rgb(227, 218, 218);
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(237, 226, 226);
+    background: -moz-radial-gradient(circle, rgba(237, 226, 226, 1) 0%, rgba(170, 215, 185, 1) 54%);
+    background: -webkit-radial-gradient(circle, rgba(237, 226, 226, 1) 0%, rgba(170, 215, 185, 1) 54%);
+    background: radial-gradient(circle, rgba(237, 226, 226, 1) 0%, rgba(170, 215, 185, 1) 54%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ede2e2", endColorstr="#aad7b9", GradientType=1);
+
+}
+
+
+.disclaimerBottom{
+    color: rgb(121, 116, 116);
+    font-weight: 500;
+    font-size: 15px;
+    padding: 40px;
+}
+

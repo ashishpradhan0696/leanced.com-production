@@ -1,0 +1,406 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.product{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100vw;
+
+}
+
+.productTitleContainer h2{
+    color: rgb(121, 116, 116);
+    letter-spacing: 0.05em;
+    text-align: center;
+    font-size: 27px;
+
+}
+
+/******************** banner styling */
+.bannerContainer{
+    width: 100%;
+}
+
+.bannerImage{
+    width:100%;
+    object-fit: cover;
+    height: 100vh;
+    opacity: 0.8;
+
+}
+
+
+
+.bannerHeaderContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.bannerTitle{
+    position: absolute;
+    top:26%;
+    left: 25%;
+    
+}
+
+.bannerLogo{
+    font-size: 40px;
+    font-style: italic;
+    letter-spacing: 0.05em;
+}
+
+.bannerDescription{
+    font-size: 19px;
+    font-weight: 900;
+    color: black;
+    font-style: italic;
+    letter-spacing: 0.09em;
+    position: absolute;
+    top: 34%;
+    left: 25%;
+    background-color: rgb(175, 175, 175);
+    padding: 5px;
+    border-radius:  5px 0px 5px 0px;
+}
+
+.supplement{
+    font-size: 25px;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    color: whitesmoke;
+    
+    border: none;
+    border-radius: 2px;
+}
+
+.bannerTitle hr{
+    width: 100px;   
+}
+
+
+/*********** product container styling **********/
+
+.productContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #f2eee7; */
+    gap: 10px;
+}
+
+/*********** input container styling **********/
+.inputContainer{
+    width: 80%;
+    display: flex;   
+    justify-content:space-between;
+
+}
+
+
+
+.searchInputContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(248, 248, 250);
+    border-radius: 5px;  
+}
+
+
+.searchInput, .filterInput{
+    border: none;
+    width: 180px;
+    height: 50px;
+    padding: 5px; 
+    background-color: rgb(248, 248, 250);
+    font-weight: 500;   
+}
+
+
+
+ .searchInputIcon {
+    padding: 5px;
+   
+ }
+
+ 
+
+ .searchInput::placeholder{
+    font-size: 15px;
+ }
+
+.searchInput:focus , .filterInput:focus{
+    outline: none;
+    background-color: rgb(216, 214, 214);
+}
+
+
+.filterInput{
+    font-size: 14px;
+    color: black;
+}
+
+.filterContainer{
+    display: flex;
+    border: none;
+    border-radius:5px ;
+   justify-content: center;
+       
+}
+
+.resetFilterButton{
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    padding: 4px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.resetFilterButton:hover {
+    background-color: rgb(30, 29, 29);
+}
+
+
+/*********** product list styling **********/
+
+
+.productListsContainer{ 
+
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+  
+    border-bottom: 1px solid rgb(231, 229, 229);
+  
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+
+.productImage{
+    height: 250px;
+    width: 180px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+
+.imageContainer{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.detailsContainer{
+    flex: 1;
+   display: flex;
+   flex-direction: column;  
+   align-items: flex-start;
+  
+}
+
+.buttonContainer {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nameContainer{
+    
+    font-size: 25px;
+    font-weight: 600;
+ 
+    margin-bottom: 20px;
+}
+
+.descriptionContainer{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: rgb(173, 177, 177);
+
+}
+
+
+/* pagination styling *********(Rest of the styling is in paginationComponent.css file **/ 
+
+.paginationComponentContainer{    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.paginationList{
+    border-radius: 6px;
+    border: none;
+    width: 30%;
+    height: 40px;
+}
+
+
+/**************************** Media queries ****************************/
+
+/* For extra small devices : 0 to 320px */
+
+@media only screen and (max-width:320px) { 
+    .productTitleContainer h2 {
+        font-size: 20px;
+    }
+                           
+}
+
+/* For 321 to 768px : Mobile devices and few tablets*/
+@media only screen and (max-width:768px){
+   
+
+    .bannerContainer{
+        display: none;
+    }
+
+        .productTitleContainer h2 {
+            color: rgb(121, 116, 116);
+            letter-spacing: 0.03em;
+            margin-top: 100px;
+        }
+
+    .productListsContainer{
+        flex-direction: column;
+        width: 90%;
+        gap: 20px;
+        padding: 20px;
+    }
+  
+    .productImage {
+            height: 180px;
+            width: 200px;
+            object-fit: contain;
+            cursor: pointer;
+          
+    }
+
+    
+    .detailsContainer{
+            align-items:center;
+            
+    }
+
+  .nameContainer {
+      font-size: 20px;
+      font-weight: 500;
+      text-align: center;
+    
+  }
+
+  .descriptionContainer {
+      display: flex;
+      flex-direction: column;
+
+      font-size: 15px;
+      font-weight: 400;
+      letter-spacing: 1px;
+      color: rgb(173, 177, 177);
+
+  }
+
+   .supplementButton{
+        width: 175px !important;
+       
+   }
+
+   .paginationList{
+        width: 70%;
+        height: 40px;
+   }
+
+
+   .inputContainer {
+        width: 90%;
+        flex-direction:column ;
+        gap: 10px;
+    }
+
+   .filterContainer{
+        justify-content: flex-end;
+        
+   }
+
+   .filterInput, .resetFilterButton{
+        height: 30px;
+   }
+   
+   .searchInput{
+     width: 400px;
+   }
+
+   .searchInputContainer{
+        justify-content:flex-start;
+   }
+   
+   .searchInput:focus,
+   .filterInput:focus {   
+       background-color: none;
+   }
+
+  
+}
+
+/* tablets ****************/
+
+@media only screen and (min-width:769px) and (max-width:1024px){
+.bannerTitle {
+    position: absolute;
+    top: 26%;
+    left: 22%;
+
+}
+
+.bannerLogo {
+    font-size: 40px;
+    font-style: italic;
+    letter-spacing: 0.05em;
+}
+
+.bannerDescription {
+    font-size: 19px;
+    font-weight: 900;
+    color: black;
+    font-style: italic;
+    letter-spacing: 0.09em;
+    position: absolute;
+    top: 35%;
+    left: 22%;
+    background-color: rgb(175, 175, 175);
+    padding: 5px;
+    border-radius: 5px 0px 5px 0px;
+}
+
+.supplement {
+    font-size: 25px;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    color: whitesmoke;
+
+    border: none;
+    border-radius: 2px;
+}
+
+}

@@ -1,0 +1,141 @@
+.feedback{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+
+
+.feedbackContainer{
+    display: flex;  
+    /* background-color: rgb(181, 194, 159); */
+    background-color: whitesmoke;
+    width: 70%;
+    border: none;
+    border-radius: 5px;
+    padding: 40px 20px;
+  
+}   
+
+.feedbackContainer-Left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+
+.feedbackContainer-Left p{
+    font-size: 14px;
+}
+
+.feedbackImage{
+    width: 300px;
+    height: 250px;
+}
+
+.feedbackContainer-Right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.feedbackContainerForm{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.feedbackContainerInput{
+    height: 30px;
+    width: 100%;
+    border: none;
+    border-radius: 2px;
+    padding: 2px;
+}
+
+.feedbackContainerInput:focus , .feedbackTextContainerInput:focus {
+   outline: none;
+}
+
+.feedbackEmailContainer h5 , .feedbackCategoryContainer h5, .feedbackTextContainer h5{
+    font-weight: 500;
+    letter-spacing: 0.025em;
+    margin-bottom: 5px;
+}
+
+.feedbackTextContainerInput{
+    width: 100%;
+    height: 90px;
+    resize: none;
+    border: none;
+        border-radius: 2px;
+}
+
+.submitButton{
+    width: 250px; 
+    height: 50px;
+    cursor: pointer;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    border-radius: 2px;
+}
+
+
+/**************************** Media queries ****************************/
+
+/* For 0 to 480px : Mobile devices */
+@media only screen and (min-width:0px) and (max-width:768px) { 
+
+ .feedbackContainer {
+     flex-direction: column;
+     width: 90%; 
+     padding: 40px 10px;
+ }
+
+ .feedbackImage{
+    width: 200px;
+    height: 150px;
+    padding: 10px;
+ }
+
+ .feedbackContainer-Left h1 {
+     font-weight: 500;
+     font-size: 25px;
+ }
+
+ .feedbackContainer-Left p {
+     font-size: 14px;
+     text-align: center;
+ }
+}
+
+
+@media only screen and (max-width:360px) {
+    .feedbackContainer {
+        margin-top: 60%;
+    }
+
+        .feedbackImage {
+            width: 150px;
+            height: 100px;
+            padding: 10px;
+        }
+    
+        .feedbackContainer-Left h1 {
+            font-weight: 500;
+            font-size: 20px;
+        }
+    
+        .feedbackContainer-Left p {
+            font-size: 12px;
+            text-align: center;
+        }
+}

@@ -1,0 +1,55 @@
+
+#emailvalidationError{
+    font-size: 13px;
+    color: red;
+    display: none;
+} 
+
+.loginError{
+font-size: 13px;
+    color: red;
+}
+
+.loginWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+.loginInputItem{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px;
+    width: 100%;
+}
+
+.loginInput{
+    height: 40px;
+    padding: 5px;
+    font-size: 15px;
+    border: none;
+}
+
+.loginInput:focus{
+    outline: none;
+}
+
+.loginInputItemName{
+    font-size: 15px;
+    margin: 2px 2px;
+}
+
+.loginButton{
+ margin: 10px 10px;
+width: 100%;
+display: flex;
+align-items: center;
+}
+
+.googleButton{
+    margin: 10px 10px;
+    width: 100%;
+}
+

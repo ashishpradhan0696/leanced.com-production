@@ -1,0 +1,53 @@
+.about{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: none; 
+    min-height: 300px;
+    padding: 40px;
+    
+        background: rgb(161, 205, 176);
+            background: -moz-linear-gradient(90deg, rgba(161, 205, 176, 1) 67%, rgba(237, 226, 226, 1) 100%);
+            background: -webkit-linear-gradient(90deg, rgba(161, 205, 176, 1) 67%, rgba(237, 226, 226, 1) 100%);
+            background: linear-gradient(90deg, rgba(161, 205, 176, 1) 67%, rgba(237, 226, 226, 1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a1cdb0", endColorstr="#ede2e2", GradientType=1);
+       
+}
+
+.aboutDescription{
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 500;
+    color: whitesmoke;
+}
+.aboutTitle{
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+
+.aboutTitle h1{
+    writing-mode: vertical-rl;
+    letter-spacing: 0.7em;
+    font-weight: 900;
+}
+
+.aboutHR{
+    display: flex;
+    border: none;
+    height: 0.5px;
+    background-color: rgb(19, 18, 18);
+}

@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,29 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,700&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,600;0,900;1,700&display=swap');
+body{
+  font-family: 'Roboto', sans-serif;
+  
+  /* box-sizing: border-box; */
+  /* background-color: #f2eee7; */
+  /* background-color: #F2F3D9; */
+  /* background-color: whitesmoke; */
+  background-color: rgb(237, 235, 235);
+  /* overflow-x: hidden; */
+  /* background-image: url(./assets/proteinBanner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh; */
 }
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+

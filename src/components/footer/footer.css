@@ -1,0 +1,134 @@
+.footer{
+    width: 100vw;
+    
+}
+
+
+.footerContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: whitesmoke;
+    margin-top: 30px;
+}
+
+.footerContainer-top{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.footerContainer-topMid h4, .footerContainer-topRight h4{
+    font-weight: 500;
+}
+
+
+
+
+.footerContainer-topLeft{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   
+}
+
+.footerContainer-topMid ,.footerContainer-topRight{
+    flex: 1;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+
+
+
+.usefulLinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 5px;
+    
+   
+}
+
+
+.footerContainer-topRight > span{
+    /* font-weight: 300;
+    font-size: 14px; */
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer-logoContainer{
+    font-weight: 900;
+    font-size: 20px;
+    letter-spacing :0.3rem ;
+}
+
+.footer-descriptionContainer{
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    
+}
+
+.bottomHR{
+    border: none;
+    height: 0.3px;
+    background-color:rgb(74, 73, 73);    
+}
+
+
+.footerContainer-bottom{
+    text-align: center;
+    padding:5px 0px ;
+    font-size: 12px;
+    color: whitesmoke;
+    font-weight: 200;
+}
+
+.links{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 300;
+        font-size: 14px;
+}
+
+.links:hover{
+    text-decoration: underline;
+    color: rgb(190, 189, 189);
+
+}
+
+
+/**************************** Media queries ****************************/
+
+/* For 0 to 480px : Mobile devices */
+@media only screen and (min-width:0px) and (max-width:480px) {
+ 
+
+    .footerContainer-top{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+ }
+
+ .footerContainer-topRight{
+    flex-direction: column;
+    align-items: flex-start;
+ }
+
+ .footerContainer-topMid{
+    align-items: flex-start;
+ }
+
+ .usefulLinks{
+        flex-direction: row;
+        gap: 20px ;
+        
+ }
+}

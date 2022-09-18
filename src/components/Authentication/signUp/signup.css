@@ -1,0 +1,53 @@
+
+
+#emailvalidationError,
+#passwordvalidationError,
+#confirmpasswordvalidationError {
+    font-size: 13px;
+    color: red;
+    display: none;
+}
+
+.registerButton1:disabled {
+    cursor: not-allowed;
+}
+
+
+.registerWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.registerInputItem {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px;
+    width: 100%;
+}
+
+.registerInput{
+    height: 40px;
+    padding: 5px;
+    font-size: 15px;
+    border: none;
+}
+
+
+.registerInput:focus {
+    outline: none;
+}
+
+.registerInputItemName {
+    font-size: 15px;
+    margin: 1px 1px;
+}
+
+.registerButton {
+    margin: 10px 10px ;
+    width: 100%;
+    display: flex;
+        align-items: center;
+}
+

@@ -1,0 +1,40 @@
+.scrollTop{
+    position: fixed;
+    top: 90%;
+    left: 95%;
+    z-index: 2;
+}
+
+
+.scrollTopContainer{
+    border: none;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(172, 201, 201);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+
+.scrollTopContainer:hover {
+    background-color: rgb(142, 174, 174);
+}
+
+/**************************** Media queries ****************************/
+
+/* For 0 to 480px : Mobile devices */
+@media only screen and (min-width:0px) and (max-width:480px) {
+    .scrollTop{
+        display: none;
+    }
+}
+
+@media only screen and (min-width:481px) and (max-width:1366px) {
+    .scrollTop {
+        left: 92%;
+    }
+}

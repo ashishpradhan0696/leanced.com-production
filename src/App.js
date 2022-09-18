@@ -1,24 +1,51 @@
-import logo from './logo.svg';
-import './App.css';
+
+// import PaginationLogic from "./pages/product/PaginationLogic";
+
+import SingleProduct from "./pages/singleProduct/SingleProduct";
+import Faq from "./pages/faq/Faq";
+import WheyFaq from "./pages/faq-whey/WheyFaq";
+import CreatineFaq from "./pages/faq-creatine/CreatineFaq";
+import FishOilFaq from "./pages/faq-fishoil/FishOilFaq";
+import Feedback from "./pages/feedback/Feedback";
+import About from "./pages/about/About";
+import ScrollTop from "./components/scrollToTop/ScrollTop";
+import InitialTopScroll from "./components/InitialTopScroll/InitialTopScroll";
+
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from "react-router-dom";
+
+import Disclaimer from "./pages/disclaimer/Disclaimer";
+import { lazy, Suspense } from "react";
+import LoadingSpinner from "./components/loadingSpinner/LoadingSpinner";
+
+const PaginationLogic = lazy(() => import("./pages/product/PaginationLogic"));
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <InitialTopScroll />
+      <ScrollTop />
+      <Suspense fallback={<LoadingSpinner />}>
+        <Routes>
+
+          <Route exact path="/" element={<PaginationLogic />} />
+          <Route path="/home" element={<PaginationLogic />} />
+
+          <Route path="/product/:id" element={<SingleProduct />} />
+          <Route path="/faq" element={<Faq />} />
+          <Route path="/faq/whey" element={<WheyFaq />} />
+          <Route path="/faq/creatine" element={<CreatineFaq />} />
+          <Route path="/faq/fishoil" element={<FishOilFaq />} />
+          <Route path="/contact" element={<Feedback />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/disclaimer" element={<Disclaimer />} />
+        </Routes>
+      </Suspense>
+    </Router>
   );
 }
 
