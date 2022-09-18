@@ -70,7 +70,7 @@ export default function WheyFaq() {
                 <span className='faq-para'>Few things to know about <span className='faq-label'> proteins </span></span>
             </div>
             <div className="wheyFaqContainer-header-image">
-                <img src={wheySVG} className="header-image"/>
+                <img src={wheySVG} alt="Whey FAQ image" className="header-image"/>
             </div>
         </div>
         <div className="wheyFaqContainer-content">

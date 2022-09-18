@@ -26,7 +26,7 @@ const handleNextPage=()=>{
                   <WestOutlinedIcon />
                 </div> 
                 {pageNumbers.map(itemNumber=>(
-                    <div key={itemNumber} className={`paginationNumbers ${currentPage==itemNumber ? "active": ""}`} onClick={()=>setCurrentPage(itemNumber)}>
+                    <div key={itemNumber} className={`paginationNumbers ${currentPage===itemNumber ? "active": ""}`} onClick={()=>setCurrentPage(itemNumber)}>
                         <span>{itemNumber}</span>
                     </div> 
                     

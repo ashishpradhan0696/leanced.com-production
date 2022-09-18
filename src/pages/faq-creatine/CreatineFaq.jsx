@@ -68,7 +68,7 @@ export default function CreatineFaq() {
                 <span className='faq-para'>Few things to know about <span className='faq-label'> creatine </span></span>
             </div>
             <div className="creatineFaqContainer-header-image">
-                <img src={creatineSVG} className="header-image"/>
+                <img src={creatineSVG} alt="Creatine FAQ image"  className="header-image"/>
             </div>
         </div>
         <div className="creatineFaqContainer-content">

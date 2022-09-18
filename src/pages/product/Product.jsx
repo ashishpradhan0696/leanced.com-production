@@ -87,7 +87,7 @@ export default function Product({data, numberOfPages , currentPage, setCurrentPa
     <div className='product'>
                         <div className="bannerContainer">
                             <div className="bannerImageContainer">
-                                    <img src={proteinBanner} className="bannerImage" ></img>
+                                    <img src={proteinBanner} alt="home page banner" className="bannerImage" ></img>
                             </div>
                            
                             <div className="bannerHeaderContainer">
@@ -142,7 +142,7 @@ export default function Product({data, numberOfPages , currentPage, setCurrentPa
 
                                     <div className="productListsContainer" >
                                         <div className="imageContainer">
-                                             <img className="productImage" title={ele.name} src={require(`../../assets/productImages/${ele.image}`)} onClick={()=>navigate(`/product/${ele.id}`)}/>                                           
+                                             <img className="productImage" title={ele.name} alt={ele.name} src={require(`../../assets/productImages/${ele.image}`)} onClick={()=>navigate(`/product/${ele.id}`)}/>                                           
                                         </div>
 
                                         <div className="detailsContainer">
@@ -178,7 +178,7 @@ export default function Product({data, numberOfPages , currentPage, setCurrentPa
                                     <div className="productListsContainer" >
                                         
                                         <div className="imageContainer">
-                                            <img className="productImage" title={ele.name} src={require(`../../assets/productImages/${ele.image}`)} onClick={()=>navigate(`/product/${ele.id}`)}/>
+                                            <img className="productImage" title={ele.name} alt={ele.name} src={require(`../../assets/productImages/${ele.image}`)} onClick={()=>navigate(`/product/${ele.id}`)}/>
                                             
                                         </div>
 
@@ -216,7 +216,7 @@ export default function Product({data, numberOfPages , currentPage, setCurrentPa
                                     <div className="productListsContainer" >
                                         
                                         <div className="imageContainer">
-                                            <img className="productImage" title={ele.name} src={require(`../../assets/productImages/${ele.image}`)} onClick={()=>navigate(`/product/${ele.id}`)}/>
+                                            <img className="productImage" title={ele.name} alt={ele.name} src={require(`../../assets/productImages/${ele.image}`)} onClick={()=>navigate(`/product/${ele.id}`)}/>
                                             
                                         </div>
 

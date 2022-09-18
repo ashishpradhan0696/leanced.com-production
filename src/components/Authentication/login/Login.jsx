@@ -34,7 +34,7 @@ export default function Login({handleClose}) {
     const handleLogin=(e)=>{
         e.preventDefault();
         
-        if(emailFlag==true){
+        if(emailFlag===true){
             console.log("proceed further");
             setLoading(true);
             signInWithEmailAndPassword(auth, email, password)

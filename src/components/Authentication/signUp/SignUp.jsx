@@ -81,7 +81,7 @@ export default function SignUp({handleClose}) {
 
     useEffect(() => {
           console.log(emailFlag,passwordFlag,confirmPasswordFlag);
-                if(emailFlag && passwordFlag==true && confirmPasswordFlag==true){
+                if(emailFlag && passwordFlag===true && confirmPasswordFlag===true){
                     console.log("validated");
                     setActive(false);
                 }

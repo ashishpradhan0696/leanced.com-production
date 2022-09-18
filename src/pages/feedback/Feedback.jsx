@@ -62,6 +62,7 @@ export default function Feedback() {
              
 
          const [watchlist, setWatchList]=useState([]);
+
          useEffect(() => {
             if(user){
             const proteinRef=doc(db,"proteinwatchlist", user.uid);
@@ -99,7 +100,7 @@ export default function Feedback() {
                 <div className="feedbackContainer-Left">
                     <h1>We'd love your feedback! </h1>
                     <p>If you have any questions, suggestions or other requests, feel free to contact us!</p>
-                    <img src={feedback_image} className="feedbackImage"/>
+                    <img src={feedback_image} alt="Feedback image" className="feedbackImage"/>
                 </div>
                 <div className="feedbackContainer-Right">
                     <form ref={form} onSubmit={handleFormSubmit} className="feedbackContainerForm">

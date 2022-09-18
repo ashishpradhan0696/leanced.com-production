@@ -1,11 +1,11 @@
 import React from 'react'
 import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 import "./scrollTop.css";
-import { useLocation } from "react-router-dom";
+// import { useLocation } from "react-router-dom";
 
 
 export default function ScrollTop() {
-    const { pathname } = useLocation();
+    // const { pathname } = useLocation();
 
     const scrollToTop=()=>{
         // window.scrollTo(0, 0);

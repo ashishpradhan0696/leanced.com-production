@@ -416,11 +416,11 @@ export default function SingleProduct() {
                                 <HtmlTooltip sx={{color:"red"}}placement="left-start"
                                                     title={
                                                     <React.Fragment>
-                                                        <Typography variant="h7"><a style={{textDecoration:"underline", color:"rgb(150, 150, 150)"}} href={singleData.imgCitation} target="_blank"><i>Image source</i></a></Typography>
+                                                        <Typography variant="h7"><a style={{textDecoration:"underline", color:"rgb(150, 150, 150)"}} href={singleData.imgCitation} target="_blank" rel="noreferrer"><i>Image source</i></a></Typography>
                                                     </React.Fragment>
                                                     }   
                                                 leaveDelay={100}>   
-                                                    <img src={require(`../../assets/productImages/${singleData.image}`)} className="leftImageContainer-image" />
+                                                    <img src={require(`../../assets/productImages/${singleData.image}`)} alt={singleData.name} className="leftImageContainer-image" />
                                                 </HtmlTooltip>
                             </div>
                             <div className="leftNameContainer">{singleData.name}</div>

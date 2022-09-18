@@ -67,7 +67,7 @@ export default function FishOilFaq() {
                 <span className='faq-para'>Few things to know about <span className='faq-label'> fish oil </span></span>
             </div>
             <div className="fishoilFaqContainer-header-image">
-                <img src={fishoilSVG} className="header-image"/>
+                <img src={fishoilSVG} alt="Fish oil FAQ image"  className="header-image"/>
             </div>
         </div>
         <div className="fishoilFaqContainer-content">

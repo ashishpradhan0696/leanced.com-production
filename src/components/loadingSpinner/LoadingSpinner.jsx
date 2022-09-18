@@ -6,7 +6,7 @@ export default function LoadingSpinner() {
   return (
     <>
             <div className='loadingSpinner'>
-                 <img  src={loading} ></img>   
+                 <img alt="loading.." src={loading} ></img>   
             </div>     
     </>
   )
