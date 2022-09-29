@@ -1,5 +1,5 @@
 import React from 'react';
-// import ReactDOM from 'react-dom/client'; 
+//import ReactDOM from 'react-dom/client';
 import ReactDOM from 'react-dom'; //React 17.0.0
 import './index.css';
 import App from './App';

@@ -21,15 +21,14 @@ export default function PaginationLogic() {
     const numberOfPages = Math.ceil(data.length / recordsPerPage);
 
 
-    
-
     return (
     <>
-     
+    
       <Product data={currentRecords} myData={myData} numberOfPages = { numberOfPages }
             currentPage={currentPage}
             setCurrentPage={setCurrentPage}
-      />
+       />
+     
     </>
   )
 }
