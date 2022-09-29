@@ -20,6 +20,8 @@ import {
 import Disclaimer from "./pages/disclaimer/Disclaimer";
 import { lazy, Suspense } from "react";
 import LoadingSpinner from "./components/loadingSpinner/LoadingSpinner";
+import { ErrorBoundary } from "react-error-boundary";
+import ErrorFallback from "./components/ErrorBoundary";
 
 //const PaginationLogic = lazy(() => import("./pages/product/PaginationLogic"));
 const Faq = lazy(() => import("./pages/faq/Faq"));
@@ -36,23 +38,23 @@ function App() {
     <Router>
       <InitialTopScroll />
       <ScrollTop />
+      <ErrorBoundary FallbackComponent={ErrorFallback} onReset={() => { window.location.reload() }}>
+        <Suspense fallback={<LoadingSpinner />}>
+          <Routes>
+            <Route exact path="/" element={<PaginationLogic />} />
+            <Route path="/home" element={<PaginationLogic />} />
 
-      <Suspense fallback={<LoadingSpinner />}>
-        <Routes>
-
-          <Route exact path="/" element={<PaginationLogic />} />
-          <Route path="/home" element={<PaginationLogic />} />
-
-          <Route path="/product/:id" element={<SingleProduct />} />
-          <Route path="/faq" element={<Faq />} />
-          <Route path="/faq/whey" element={<WheyFaq />} />
-          <Route path="/faq/creatine" element={<CreatineFaq />} />
-          <Route path="/faq/fishoil" element={<FishOilFaq />} />
-          <Route path="/contact" element={<Feedback />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/disclaimer" element={<Disclaimer />} />
-        </Routes>
-      </Suspense>
+            <Route path="/product/:id" element={<SingleProduct />} />
+            <Route path="/faq" element={<Faq />} />
+            <Route path="/faq/whey" element={<WheyFaq />} />
+            <Route path="/faq/creatine" element={<CreatineFaq />} />
+            <Route path="/faq/fishoil" element={<FishOilFaq />} />
+            <Route path="/contact" element={<Feedback />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/disclaimer" element={<Disclaimer />} />
+          </Routes>
+        </Suspense>
+      </ErrorBoundary>
 
     </Router>
   );

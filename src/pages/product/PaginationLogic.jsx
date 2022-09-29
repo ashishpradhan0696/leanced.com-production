@@ -20,15 +20,19 @@ export default function PaginationLogic() {
     const currentRecords = data.slice(indexOfFirstRecord, indexOfLastRecord);
     const numberOfPages = Math.ceil(data.length / recordsPerPage);
 
+    // if(Math.random()>0.5){
+    //   return new Error("Test error");  
+    // }
 
     return (
     <>
+    
     
       <Product data={currentRecords} myData={myData} numberOfPages = { numberOfPages }
             currentPage={currentPage}
             setCurrentPage={setCurrentPage}
        />
-     
+    
     </>
   )
 }
