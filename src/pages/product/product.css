@@ -86,6 +86,14 @@
 }
 
 
+.loading{
+    filter: blur(10px);
+}
+
+.loaded{
+    filter: blur(0px);
+}
+
 /*********** product container styling **********/
 
 .productContainer{

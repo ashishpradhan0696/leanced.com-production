@@ -11,9 +11,12 @@ import PaginationComponent from './PaginationComponent';
 import Tooltip from '@mui/material/Tooltip';
 import Footer from '../../components/footer/Footer';
 import proteinBanner from "../../assets/commonImages/proteinBanner.jpg"; 
-
+import proteinBlurred from "../../assets/commonImages/proteinBlurred.jpg"
 
 export default function Product({data, numberOfPages , currentPage, setCurrentPage , myData}) {
+
+    const [imageSrc, setImageSrc]=useState(proteinBlurred);
+    const imageProgress= imageSrc===proteinBlurred ? "loading" : "loaded" ;
 
     const [search, setSearch] = useState("");
         const [filter, setFilter] = useState("");
@@ -45,7 +48,17 @@ export default function Product({data, numberOfPages , currentPage, setCurrentPa
             })
            
          }, [])
-             
+            
+
+        // For changing image src state from blurred image to the correct image
+         useEffect(() => {
+           const img=new Image();
+           img.src=proteinBanner;  //assigning actual image to src and then checking if its loaded using onload()
+           img.onload=()=>{
+            setImageSrc(proteinBanner) ;
+           }
+         }, [])
+         
 
          const [watchlist, setWatchList]=useState([]);
          useEffect(() => {
@@ -53,22 +66,23 @@ export default function Product({data, numberOfPages , currentPage, setCurrentPa
             const proteinRef=doc(db,"proteinwatchlist", user.uid);
         
             var unsubscribe=onSnapshot(proteinRef,(ele)=>{
-            if(ele.exists()){
-               // console.log(ele.data().proteins);
-                setWatchList(ele.data().proteins);
-               // console.log("watchlist is", watchlist);
-            }
-            else{
-               // console.log("no items in watchlist");
-            }
-        });
+                    if(ele.exists()){
+                    // console.log(ele.data().proteins);
+                        setWatchList(ele.data().proteins);
+                    // console.log("watchlist is", watchlist);
+                    }
+                    else{
+                    // console.log("no items in watchlist");
+                    }
+                    
+                }
+            );
 
         return()=>{
             unsubscribe();
         }
       }
 
-      
     }, [user])
 
 
@@ -87,7 +101,7 @@ export default function Product({data, numberOfPages , currentPage, setCurrentPa
     <div className='product'>
                         <div className="bannerContainer">
                             <div className="bannerImageContainer">
-                                    <img src={proteinBanner} alt="home page banner" className="bannerImage" ></img>
+                                    <img src={imageSrc} alt="home page banner" className={`bannerImage ${imageProgress}`} ></img>
                             </div>
                            
                             <div className="bannerHeaderContainer">
