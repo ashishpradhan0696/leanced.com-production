@@ -27,14 +27,14 @@ EmailJs
 
 ## Features
 
-* Filter products by brand           
-* Visualize key nutrition facts about the health supplement
-* Interactive charts allows you to unselect any label/content from the chart and visualize each labels individually by clicking on it
-* Toggle the charts and the nutritional information between ***per serving size view*** and ***per 100gm serving view*** for the respective product
-* Login using your email or Google authentication
-* Add product to watchlist to visualize it later
-* Know more about your supplement in the FAQ section
-* Suggest a feedback or report an issue from the 'Feedback' section 
+✓ Filter products by brand             
+✓ Visualize key nutrition facts about the health supplement  
+✓ Interactive charts allows you to unselect any label/content from the chart and visualize each labels individually by clicking on it  
+✓ Toggle the charts and the nutritional information between ***per serving size view*** and ***per 100gm serving view*** for the respective product  
+✓ Login using your email or Google authentication  
+✓ Add product to watchlist to visualize it later  
+✓ Know more about your supplement in the FAQ section  
+✓ Suggest a feedback or report an issue from the 'Feedback' section   
 
 
 ## Demo
