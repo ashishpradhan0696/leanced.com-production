@@ -123,6 +123,10 @@ https://user-images.githubusercontent.com/105099493/193409995-b2274940-8d8a-4b7f
 If you have any feedback, please reach out to us at ashish.pradhan0696@gmail.com
 
 
+## License
+
+All rights reserved.   
+Read more at https://choosealicense.com/no-permission/
 
 
 
