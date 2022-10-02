@@ -59,7 +59,7 @@ export default function About() {
                     <div className="aboutDescription">
                           <span> <em style={{color:"black", fontSize:"18px"}}>How many standard apples should a standard human eat to get a standard dose of Vitamin C ? </em> <br/>
                             <span style={{color:"black"}}>Not easy, right ? </span><br/>
-                            Lets be honest, we spend too much time on the nutrition facts searching for the perfect supplement , and most of the time we don’t find it that easily either. 
+                            Diet and a good health is an integral part of our life, and so do supplements. Lets be honest, we spend too much time searching for the right health supplement that fits our needs, be it a whey protein, fish oil or a multi vitamin, and most of the times end up in a dilemma of choosing the right product, or sometimes, its just too confusing for a beginner who has just started out his fitness journey to crawl over the internet and spend countless hours watching reviews on his/her way to decide what fits best.
                             Leanced is a platform which brings you the vital key nutrition facts related to health supplements in an easily accessible way. Leanced lets you choose a product and visualize the key nutrition facts in it, and decide for yourself which product fits your needs. 
                             <br></br>
                             <span style={{color:"red"}}>*</span> This website currently provides information for only whey proteins , and we plan to add more health supplements as we move ahead.
