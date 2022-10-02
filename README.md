@@ -108,9 +108,11 @@ https://user-images.githubusercontent.com/105099493/193409995-b2274940-8d8a-4b7f
 
 
 ## What lies ahead ?
-- Closing the open items
-<img src="https://img.shields.io/badge/issues-3%20closed-green">
-<img src="https://img.shields.io/badge/issues-2%20open-orange">
+ 
+ ✓ <img src="https://img.shields.io/badge/issues-3%20closed-green"> 
+
+- Closing the open backlog items   
+<img src="https://img.shields.io/badge/issues-3%20open-orange">
 
 - Improvement in the current UI
 - Using Redux for state management
