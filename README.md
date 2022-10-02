@@ -46,13 +46,13 @@ https://user-images.githubusercontent.com/105099493/193408485-be7d309f-3be4-4dcc
 
 2. Visualizing nutrition facts 
 
+https://user-images.githubusercontent.com/105099493/193408522-fdc856b3-67dd-4c30-a000-bab3d98ece5f.mp4
 
-https://user-images.githubusercontent.com/105099493/193408507-dd10d6e0-b9cf-43ae-9d5e-a6d7600854a4.mp4
 
 3. Login and Add supplements to watchlist
 
+https://user-images.githubusercontent.com/105099493/193408507-dd10d6e0-b9cf-43ae-9d5e-a6d7600854a4.mp4
 
-https://user-images.githubusercontent.com/105099493/193408522-fdc856b3-67dd-4c30-a000-bab3d98ece5f.mp4
 
 
 ## Optimizations
