@@ -57,7 +57,7 @@ https://user-images.githubusercontent.com/105099493/193408522-fdc856b3-67dd-4c30
 
 ## Optimizations
 
-Few of the optimizations and tests:   
+Few of the optimizations and tests:   (More to be added)
 
 #**ROUTE BASED CODE-SPLITTING**  
 
